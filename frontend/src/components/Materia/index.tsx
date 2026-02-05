@@ -27,10 +27,12 @@ const Materia: React.FC<MateriaProps> = ({ chapeu, image, section, summary, titl
       <a href={url} className='materia-link'>
         {chapeu && <p className='chapeu'>{chapeu}</p>}
         {image && <img src={image} alt={title} className='image-materia'/>}
-        <p className='section'>{section}</p>
-        <h2 className='title-materia'>{title}</h2>
-        <p className='summary-materia'>{summary}</p>
-        {video && <span className='video-badge'>📹 Vídeo</span>}
+        <div className='content-container'>
+          <p className='section'>{section}</p>
+          <h2 className='title-materia'>{title}</h2>
+          <p className='summary-materia'>{summary}</p>
+          {video && <span className='video-badge'>📹 Vídeo</span>}
+        </div>
       </a>
     </article>
   )

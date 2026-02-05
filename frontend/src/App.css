@@ -1,3 +1,8 @@
+body {
+  font-family: Proxima Nova, sans-serif;
+  color: #C4170C;
+}
+
 header {
   background-color: #C4170C;
   height: 74px;
@@ -5,8 +10,7 @@ header {
   text-align: center;
 }
 header svg {
-  height: 40px;
-  margin-top: 17px;
+  margin-top: 30px;
 }
 
 .destaques {

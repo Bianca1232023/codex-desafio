@@ -1,11 +1,15 @@
 @use './styles/variables' as *;
 @use './styles/minxis' as *;
 
+body{
+    font-family: Proxima Nova, sans-serif;
+    color: $color-primary;
+}
+
 header {
 
     svg {
-        height: 40px;
-        margin-top: 17px;
+        margin-top: 30px;
     }
 
     background-color: $bg-seconcdary;
