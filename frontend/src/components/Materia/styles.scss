@@ -1,0 +1,28 @@
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.materia {
+  width: 100%;
+  max-width: 464px;
+  height: 426px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.materia-link{
+    height: 100%;
+}

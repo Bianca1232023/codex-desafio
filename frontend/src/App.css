@@ -1,0 +1,31 @@
+header {
+  background-color: #C4170C;
+  height: 74px;
+  width: 100%;
+  text-align: center;
+}
+header svg {
+  height: 40px;
+  margin-top: 17px;
+}
+
+.destaques {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.primeiro-destaque {
+  width: 464px;
+  height: 426px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.segundo-destaque {
+  width: 464px;
+  height: 426px;
+}
+
+.destaques {
+  margin-top: 24px;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,27 @@
+@use './variables' as *;
+@use './minxis' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100em;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+  margin-top: 24px;
+}
+
+#root {
+  @include flex-column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100em;
+  width: 100%;
+}
