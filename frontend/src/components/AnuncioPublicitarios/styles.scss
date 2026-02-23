@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.anuncio-publicitario {
+    margin: 32px 0;
+    text-align: center;
+    position: relative;
+}
+
+.label-anuncio {
+    display: block;
+    font-size: 11px;
+    color: #999;
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.anuncio-publicitario img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,15 @@
+{
+	"name": "desafio-web",
+	"version": "1.0.0",
+	"description": "Desafio Web",
+	"main": "index.js",
+	"author": "Globo",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1"
+	},
+	"scripts": {
+		"start": "node index.js"
+	}
+}

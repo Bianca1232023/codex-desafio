@@ -1,0 +1,63 @@
+body {
+  font-family: Proxima Nova, sans-serif;
+  color: #C4170C;
+}
+
+header {
+  background-color: #C4170C;
+  height: 74px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.destaques {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  width: 100%;
+  max-width: 940px;
+  margin: 24px auto 0;
+  padding: 0 20px;
+}
+
+.primeiro-destaque {
+  width: 100%;
+  height: 426px;
+}
+
+.segundo-destaque {
+  width: 100%;
+  height: 426px;
+}
+
+.main-container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.feed-section {
+  margin-top: 32px;
+}
+
+.btn-veja-mais {
+  width: 100%;
+  padding: 16px;
+  margin: 32px 0;
+  background-color: #C4170C;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-veja-mais:hover {
+  background-color: rgb(147.9423076923, 17.3605769231, 9.0576923077);
+}
+.btn-veja-mais:active {
+  transform: translateY(1px);
+}/*# sourceMappingURL=App.css.map */

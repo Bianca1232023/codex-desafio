@@ -1,0 +1,60 @@
+@import '../../styles/variables.scss';
+
+.grupo-de-materia {
+    background-color: #fff;
+    padding: 24px;
+    margin: 24px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grupo-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: $color-primary;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid $bg-seconcdary;
+}
+
+.grupo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li {
+        padding: 12px 0;
+        border-bottom: 1px solid #e0e0e0;
+        
+        &:last-child {
+            border-bottom: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: $color-primary;
+            font-size: 16px;
+            font-weight: 600;
+            transition: color 0.2s;
+            
+            &:hover {
+                color: $bg-seconcdary;
+            }
+        }
+    }
+}
+
+.grupo-footer {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: $bg-seconcdary;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 0.2s;
+    
+    &:hover {
+        background-color: darken($bg-seconcdary, 10%);
+    }
+}

@@ -1,0 +1,84 @@
+@use './styles/variables' as *;
+@use './styles/minxis' as *;
+
+body{
+    font-family: Proxima Nova, sans-serif;
+    color: $color-primary;
+}
+
+header {
+    background-color: $bg-seconcdary;
+    height: 74px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.destaques {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    max-width: 940px;
+    width: 100%;
+    margin: 24px auto 0;
+    padding: 0 20px;
+}
+
+.primeiro-destaque {
+    width: 100%;
+    height: 426px;
+}
+
+.segundo-destaque {
+    width: 100%;
+    height: 426px;
+}
+
+.main-container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 24px;
+    margin-top: 32px;
+    
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.feed-section {
+    width: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.btn-veja-mais {
+    width: 100%;
+    padding: 16px;
+    margin: 32px 0;
+    background-color: $bg-seconcdary;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+    &:hover {
+        background-color: darken($bg-seconcdary, 10%);
+    }
+    
+    &:active {
+        transform: translateY(1px);
+    }
+}
